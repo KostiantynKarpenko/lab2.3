@@ -1,0 +1,42 @@
+tr{
+    transition: .2s;
+    display: table-row;
+    .pokemon-string{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        
+        &:hover{
+            background-color: rgba(109, 238, 255, 0.185);
+            transition: .2s;
+        }
+        td:first-child{
+            width: 400px;
+            padding: 0 10px;
+        }
+        a{
+            cursor: pointer;
+            font-size: 30px;
+            display: block;
+            padding: 7px 0;
+            &.url {
+                font-size: 20px;
+            }
+        }
+        .btn{
+            cursor: pointer;
+            background: #ffffff;
+            font-size: 15px;
+            padding: 5px 10px;
+            border: 1px solid #c2c2c285;
+            border-radius: 7px;
+            transition: .2s;
+            &:hover{
+                border: 1px solid #000000;
+                background-color: #000000;
+                color: #ffffff;
+                transition: .2s;
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+.cntr{
+    padding: 20px 0;
+    display: flex;
+    width: 800px;
+    justify-content: space-around;
+    margin: 100px auto;
+    align-items: center;
+    background-color: #0000002d;
+    border-radius: 20px;
+    .pokemon-image{
+        height:200px;
+        background-color: #00ffc856;
+        border-radius: 20px;
+    }
+    .data-container{
+        .pokemon-name{
+            font-size: 30px;
+        }
+        .characteristics{
+            margin: 20px 0;
+            .char-title{
+                font-size: 25px;
+            }
+            .stats{
+                li{
+                    font-size: 20px;
+                }
+            }
+        }
+        .actions{
+            display: flex;
+            justify-content: center;
+            .btn{
+                font-size: 23px;
+                margin: 0px 30px;
+                padding: 10px 15px;
+                border-radius: 10px;
+                border: none;
+                cursor: pointer;
+                &.delete{
+                    background-color: #ff4b4b;
+
+                }
+                background-color: rgb(216, 88, 255);
+            }
+        }
+    }
+}
